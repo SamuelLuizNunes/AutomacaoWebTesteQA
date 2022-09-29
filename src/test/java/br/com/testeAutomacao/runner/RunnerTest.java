@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 		features = "src/test/resources/features/",
 		tags = "",
-		glue = "src/test/java/br/com/testeAutomacao/steps/",
+		glue = "br.com.testeAutomacao.steps",
 		plugin = {"json:target/reports/CucumberReports.json", "pretty"},
 		snippets = SnippetType.CAMELCASE
 )
